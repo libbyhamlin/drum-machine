@@ -43,25 +43,53 @@ header p {
 }
 
 .pad1 {
-    background: #60d394;
+    background: #FF28FC;
 }
 
 .pad2 {
-    background: lightcoral;
+    background: #28FF2B;
 }
 
 .pad3 {
-    background: blueviolet;
+    background: #2891FF;
 }
 
 .pad4 {
-    background: coral;
+    background: #FCFF28;
 }
 
 .pad5 {
-    background: hotpink;
+    background: #B028FF;
 }
 
 .pad6 {
-    background: yellow;
+    background:#28E2FF;
+}
+
+
+@keyframes jump {
+    0% {
+        bottom: 0%;
+        left: 20%;
+    }
+    50% {
+        bottom: 50%;
+        left:50%;
+    }
+    100% {
+        bottom: 0%;
+        left: 80%
+    }
+    
+} 
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+    z-index: -1;
 }
